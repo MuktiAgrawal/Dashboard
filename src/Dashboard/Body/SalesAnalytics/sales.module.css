@@ -1,0 +1,42 @@
+.sales_analytics_heading{
+    padding-left:30px;
+    padding-top:24px;
+}
+.sales_cards{
+    display:flex;
+    flex-direction: column;
+}
+.card{
+    background-color: white;
+    border:0.5px solid rgb(186, 186, 186);
+    margin:20px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    padding:10px;
+}
+.card_heading{
+    font-size:1.3rem;
+    padding-bottom:10px;
+    color:rgb(71, 70, 70);
+}
+.charts{
+    display: flex;
+}
+.chart_container {
+    flex: 1;
+    border:0.5px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+}
+.pieChartContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:250px;
+    width:250px;
+    flex:4;
+}
+.barChartContainer{
+    flex:6;
+}

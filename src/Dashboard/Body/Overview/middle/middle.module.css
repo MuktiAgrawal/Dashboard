@@ -1,0 +1,28 @@
+.middle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4px;
+}
+.description{
+    margin:0 30px;
+    color:rgb(49, 46, 46);
+    flex:2;
+}
+.middle_right{
+    flex:1;
+    background-color: white;
+    border-radius:10px;
+    margin:20px;
+    padding:20px;
+    height:80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heading{
+    font-size:16px;
+}
+.value{
+    font-size:40px;
+}

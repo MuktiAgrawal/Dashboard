@@ -1,0 +1,43 @@
+.Sidebar{
+    background-color:#2F4050;
+    height:100%;
+    width:18%;
+    overflow: auto;
+}
+.flipkart_heading{
+    padding:12px;
+    width:auto;
+    height:60px;
+}
+.SidebarList{
+    height:auto;
+    width:100%;
+    padding:0;
+}
+.SidebarList .SidebarRow{
+    width:100%;
+    height:50px;
+    list-style-type: none;
+    margin:0;
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.SidebarRow #icon{
+    flex:30%;
+    scale:1.2;
+    display:grid;
+    place-items: center;
+}
+.SidebarList .SidebarRow:hover{
+    cursor:pointer;
+    background-color: rgb(41, 46, 53);
+}
+.SidebarList #active{
+    background-color: rgb(41, 46, 53);
+}
+.SidebarRow #title{
+    flex:70%;
+}

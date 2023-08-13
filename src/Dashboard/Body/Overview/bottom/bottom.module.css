@@ -1,0 +1,72 @@
+.bottom{
+    display:flex;
+    padding-bottom: 16px;
+}
+.card{
+    flex:1;
+    background-color: white;
+    margin:20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.rank_card{
+    display: flex;
+    flex-direction: column;
+}
+.rank{
+    border-bottom: 1px solid black;
+    display:flex;
+    align-items:center;
+    height:100%;
+}
+.category_rank{
+    border:none;
+}
+.rank_heading{
+    flex:2;
+    font-size:20px;
+}
+.rank_icon{
+    flex:1;
+    height: 30px;
+    padding:16px;
+    padding-top:22px;
+}
+.rank_value{
+    font-size:20px;
+}
+.sales_card{
+    display: flex;
+    flex-direction: column;
+}
+.sales_heading{
+    font-size:20px;
+    padding-bottom:30px;
+}
+.sales_value{
+    font-size:40px;
+    padding-bottom:10px;
+}
+.sales_growth{
+    color:rgb(67, 66, 66);
+}
+.increase_image_container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.increase_image{
+    height:130px;
+    width:80%;
+}
+.rate_card{
+    display:flex;
+    flex-direction: column;
+}
+.rate_heading{
+    font-size:20px;
+    padding-bottom:30px;
+}
+.doughnut_chart{
+    height:230px;
+}
