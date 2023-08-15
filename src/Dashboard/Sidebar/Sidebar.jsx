@@ -6,10 +6,16 @@ import {useState} from "react"
 
 const Sidebar=()=>{
     const navigate=useNavigate();
-    const [sideBarActive,useSideBarActive]=useState(false);
+    const [sideBarActive,setSideBarActive]=useState(false);
     const toggleSideBar=()=>{
-        useSideBarActive(!sideBarActive)
+        setSideBarActive(!sideBarActive)
     }
+    const handleResize=()=>{
+        if(window.innerWidth<1025){
+            setSideBarActive(false);
+        }
+    }
+    window.addEventListener("resize",handleResize);
     return (
         <div className={`${style.Sidebar} ${sideBarActive?style.active:""}`}>
             <div className={style.sidebar_heading}>

@@ -71,3 +71,21 @@
 .doughnut_chart{
     height:auto;
 }
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .rank_card,
+    .sales_card,
+    .rate_card {
+      width: calc(33.33% - 40px); /* Adjust the width as needed */
+      /* The above calculation divides the available width into 3 equal parts with some margin */
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .bottom{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .bottom{
+        flex-direction: column;
+    }
+}
