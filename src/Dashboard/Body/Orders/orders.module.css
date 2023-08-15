@@ -2,7 +2,7 @@
     padding-left:30px;
     padding-top:24px;
 }
-.cards{
+.card_container{
     display:flex;
 }
 .card{

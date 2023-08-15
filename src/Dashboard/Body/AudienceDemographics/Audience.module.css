@@ -1,8 +1,8 @@
-.audience-heading{
+.audience_heading{
     padding-left:30px;
     padding-top:24px;
 }
-.Audience-card{
+.Audience_card{
     display:flex;
     margin:20px;
     background-color: rgb(255, 255, 255);
@@ -10,17 +10,17 @@
     border:0.5px solid rgb(186, 186, 186);
     height:auto;
 }
-.gender-card{
+.gender_card{
     flex:3;
 }
-.age-card{
+.age_card{
     flex:7;
 }
-.pie-chart{
+.pie_chart{
     height:250px;
     width:250px;
 }
-.gender-card, .age-card{
+.gender_card, .age_card{
     background-color: white;
     border-radius: 5px;
     margin:10px;
@@ -28,7 +28,7 @@
     border:0.5px solid rgb(186, 186, 186);
     text-align: center;
 }
-.card-heading{
+.card_heading{
     font-size:1.3rem;
     padding-bottom:10px;
     color:rgb(71, 70, 70);

@@ -38,6 +38,7 @@
 .sales_card{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .sales_heading{
     font-size:20px;
@@ -68,5 +69,5 @@
     padding-bottom:30px;
 }
 .doughnut_chart{
-    height:230px;
+    height:auto;
 }

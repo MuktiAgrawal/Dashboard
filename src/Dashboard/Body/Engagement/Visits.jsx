@@ -6,7 +6,7 @@ import decrease from "../../../images/decrease.png"
 const Visits=()=>{
     return (
         <div className={style.Visits}>
-            <div className={style.card}>
+            <div className={`${style.card} card_hover`}>
                 <div className={style.card_heading}>
                     <p className={style.card_topic}>
                         Total Visits
@@ -36,7 +36,7 @@ const Visits=()=>{
                     </div>
                 </div>
             </div>
-            <div className={style.card}>
+            <div className={`${style.card} card_hover`}>
                 <div className={style.card_heading}>
                     <p className={style.card_topic}>
                         Bounce Rate
@@ -66,7 +66,7 @@ const Visits=()=>{
                     </div>
                 </div>
             </div>
-            <div className={style.card}>
+            <div className={`${style.card} card_hover`}>
                 <div className={style.card_heading}>
                     <p className={style.card_topic}>
                         Pages per visit
@@ -96,7 +96,7 @@ const Visits=()=>{
                     </div>
                 </div>
             </div>
-            <div className={style.card}>
+            <div className={`${style.card} card_hover`}>
                 <div className={style.card_heading}>
                     <p className={style.card_topic}>
                         Avg Duration
