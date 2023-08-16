@@ -115,3 +115,23 @@
     padding-top:2px;
     height: 18px;
 }
+@media screen and (min-width:320px) and (max-width:480px){
+    .Visits{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:481px) and (max-width:1024px){
+    .Visits{
+        /* flex-direction: row;
+        flex-wrap:wrap; */
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+    }
+    .card{
+        /* flex:0 0 calc(50%-5px); */
+        flex:initial;
+        flex-basis:auto;
+        margin:0;
+    }
+}

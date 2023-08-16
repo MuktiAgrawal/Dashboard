@@ -16,10 +16,6 @@
 .age_card{
     flex:7;
 }
-.pie_chart{
-    height:250px;
-    width:250px;
-}
 .gender_card, .age_card{
     background-color: white;
     border-radius: 5px;
@@ -27,9 +23,23 @@
     padding:10px;
     border:0.5px solid rgb(186, 186, 186);
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .card_heading{
     font-size:1.3rem;
     padding-bottom:10px;
     color:rgb(71, 70, 70);
+}
+@media screen and (min-width:320px) and (max-width:1024px){
+    .Audience_card{
+        flex-direction: column;
+    }
+    .pie_chart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height:250px;
+        width:250px; */
+    }
 }

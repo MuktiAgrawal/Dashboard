@@ -5,6 +5,7 @@
 .sales_cards{
     display:flex;
     flex-direction: column;
+    /* width:auto; */
 }
 .card{
     background-color: white;
@@ -13,6 +14,7 @@
     margin-bottom: 6px;
     border-radius: 5px;
     padding:10px;
+    width: auto;
 }
 .card_heading{
     font-size:1.3rem;
@@ -33,10 +35,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:250px;
-    width:250px;
     flex:4;
 }
 .barChartContainer{
     flex:6;
+}
+@media screen and (min-width:320px) and (max-width:1024px){
+    .charts{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .sales_analytics_heading{
+        padding-left:24px;
+        font-size: 22px;
+    }
+    .card{
+        margin:10px;
+        margin-bottom:3px;
+        padding:7px;
+    }
+    .card_heading{
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+    .chart_container{
+        margin:0;
+        margin-bottom: 4px;
+        padding:0;
+    }
+    .pieChartContainer{
+        width: fit-content;
+        height: 200px;
+    }
 }

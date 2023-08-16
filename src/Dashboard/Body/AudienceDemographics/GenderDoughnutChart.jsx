@@ -14,7 +14,7 @@ const GenderDoughnutChart=()=>{
     const options={
         responsive:true,
         cutoutPercentage:50,
-        radius:"100%",
+        radius:(window.innerWidth>=320 && window.innerWidth<=480)?"70%":"100%",
         plugins:{
             legend:{
                 display:true,

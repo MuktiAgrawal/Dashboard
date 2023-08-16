@@ -57,3 +57,19 @@
 .SidebarRow #title{
     flex:70%;
 }
+@media screen and (min-width:320px) and (max-width:480px){
+    .Sidebar{
+        width: 50px;
+    }
+    .Sidebar.active{
+        width:150px;
+    }
+    .flipkart_heading{
+        height: 36px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .Sidebar{
+        width: 60px;
+    }
+}

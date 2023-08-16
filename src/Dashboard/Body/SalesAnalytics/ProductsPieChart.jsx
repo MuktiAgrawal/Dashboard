@@ -11,13 +11,14 @@ const ProductPieChart=()=>{
     }
     const options={
         responsive:true,
-        radius:"100%",
+        radius:(window.innerWidth>=320 && window.innerWidth<=480)?"70%":"100%",
         plugins:{
             legend:{
                 display:true,
                 position:"right",
             }
-        }
+        },
+        maintainAspectRatio:false,
     }
     return (
         <div className="ProductPieChart">

@@ -59,3 +59,23 @@
     padding:10px;
     font-size:18px;
 }
+@media screen and (min-width:320px) and (max-width:768px){
+    .card_container{
+        flex-direction: column;
+    }
+    .charts{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    .polar_chart{
+        width:200px;
+        height: 200px;
+    }
+}
+@media screen and (min-width:401px) and (max-width:480px){
+    .polar_chart{
+        width:250px;
+        height: 250px;
+    }
+}
